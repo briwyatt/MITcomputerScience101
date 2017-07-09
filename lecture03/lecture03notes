@@ -1,0 +1,55 @@
+LECTURE 3 OBJECTIVES:
+1. identify common patterns of code that tackle  certain classes of problems 
+2. tools to use to help you understand these things
+
+
+
+iterative programs: 
+    ~how to think through this type of problem
+
+1. First you want to identify a counter variable. 
+    ~what is the thing that is going to change every time I run through the same set of code?
+2. intialize the counter variable
+    ~DO THIS OUTSIDE THE LOOP (example: ans=0)
+3. Setup an end test
+    ~ how do you know you are done with the loop? this ought to include the variable in some way since thats the thing that is changing
+4. Construct the block of code
+    ~inside here, make sure the variable is changing each time through. no change will result in an infinite loop!
+5. Decide what happens when the loop is done / a result is found.
+
+** DEFENSIVE PROGRAMMING **
+mistakes in the program : 
+    - people make mistakes 
+    - dont count on the user to give you the information/input you asked for 
+    - other parts of the program have a mistake that causes wrong input
+
+- make sure all possible inputs will end in a path and a useful output 
+
+
+*** Exhaustive Enumeration *** 
+I am walking through all possible parameters until I find solution. 
+
+
+FOR LOOPS
+- iterates over a collection with no counter variable, loop will end once it makes it way through any finite collection of something - batting averages, or a sequence of integers, for example: "range(1,x)" using the range keyword 
+
+
+TUPLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
